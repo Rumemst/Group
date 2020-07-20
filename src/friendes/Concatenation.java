@@ -4,14 +4,14 @@ package friendes;
 
 public class Concatenation {
 
-
-
+static String firstname="rume";
+static String lastname="rahad";
+static String fullname =firstname+ " " +lastname;
+String name ="ryan";
     public static void main(String[] args) {
-
-        int a=10;
-        int b=20;
-        String name="rume";
-        System.out.println(a+b+name);
+       Concatenation obj = new Concatenation();
+        System.out.println("my name is " + fullname );
+        System.out.println("my name is " + obj.name);
 
     }
 

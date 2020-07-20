@@ -14,8 +14,9 @@ public class LearnArrayList {
         arr.add("piash");
         arr.add(10);
         arr.add(12.00);
+        arr.add(12.00);
         arr.add('m');
-        // System.out.println(arr);
+        System.out.println(arr);
 
 //        for (String i:arr) {
 //            System.out.println(i);
